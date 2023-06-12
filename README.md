@@ -18,9 +18,11 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Open-Redirection Sinks](#open-redirection-sinks "Jump To Section")
 
-* [Cookie Manipulation Sinks](#cookie-manipulation-sinks "Jump To Section")
+* [Cookie Manipulation Sink](#cookie-manipulation-sink "Jump To Section")
 
-* [JavaScript Injection Sinks](#javascript-injection-sinks "Jump To Section")* 
+* [JavaScript Injection Sinks](#javascript-injection-sinks "Jump To Section")
+
+* [Document-Domain Manipulation Sink](#document-domain-manipulation-sink "Jump To Section")
 
 ---
 
@@ -182,7 +184,7 @@ The following are some of the main sinks that can lead to DOM-based open-redirec
 
 ---
 
-## Cookie Manipulation Sinks
+## Cookie Manipulation Sink
 
 The following sink can lead to DOM-based cookie-manipulation vulnerabilities.
 
@@ -218,9 +220,20 @@ The following are some of the main sinks that can lead to DOM-based JavaScript-i
 
 * crypto.generateCRMFRequest()
 
-**Information Source** - [DOM-Based JavaScript Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/javascript-injection)
+**Information Source** - [DOM-Based JavaScript Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/javascript-injection "DOM-Based JavaScript Injection Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
 
+## Document-Domain Manipulation Sink
+
+The following sink can lead to DOM-based document-domain manipulation vulnerabilities.
+
+* document.domain
+
+**Information Source** - [DOM-Based Document-Domain Manipulation Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/document-domain-manipulation "DOM-Based Document-Domain Manipulation Sink Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
