@@ -20,6 +20,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Cookie Manipulation Sinks](#cookie-manipulation-sinks "Jump To Section")
 
+* [JavaScript Injection Sinks](#javascript-injection-sinks "Jump To Section")* 
+
 ---
 
 ## What Are Sources and Sinks?
@@ -191,3 +193,34 @@ The following sink can lead to DOM-based cookie-manipulation vulnerabilities.
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## JavaScript Injection Sinks
+
+The following are some of the main sinks that can lead to DOM-based JavaScript-injection vulnerabilities:
+
+* eval()
+
+* Function()
+
+* setTimeout()
+
+* setInterval()
+
+* setImmediate()
+
+* execCommand()
+
+* execScript()
+
+* msSetImmediate()
+
+* range.createContextualFragment()
+
+* crypto.generateCRMFRequest()
+
+**Information Source** - [DOM-Based JavaScript Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/javascript-injection)
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
