@@ -24,6 +24,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Document-Domain Manipulation Sink](#document-domain-manipulation-sink "Jump To Section")
 
+* [WebSocket URL Poisoning Sink](#websocket-url-poisoning-sink "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -237,3 +239,14 @@ The following sink can lead to DOM-based document-domain manipulation vulnerabil
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## WebSocket-URL Poisoning Sink
+
+The following constructor can lead to WebSocket-URL poisoning vulnerabilities.
+
+* WebSocket
+
+**Information Source** - [DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/websocket-url-poisoning "DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger")
+
+---
+
