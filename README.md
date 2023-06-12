@@ -26,6 +26,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [WebSocket URL Poisoning Sink](#websocket-url-poisoning-sink "Jump To Section")
 
+* [Link Manipulation Sinks](#link-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -248,5 +250,22 @@ The following constructor can lead to WebSocket-URL poisoning vulnerabilities.
 
 **Information Source** - [DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/websocket-url-poisoning "DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger")
 
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
 ---
 
+## Link Manipulation Sinks
+
+The following are some of the main sinks that can lead to DOM-based link-manipulation vulnerabilities:
+
+* element.href
+
+* element.src
+
+* element.action
+
+**Information Source** - [DOM-Based Link Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/link-manipulation "DOM-Based Link Manipulation Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
