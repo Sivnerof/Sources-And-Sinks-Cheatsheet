@@ -18,6 +18,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Open-Redirection Sinks](#open-redirection-sinks "Jump To Section")
 
+* [Cookie Manipulation Sinks](#cookie-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -173,6 +175,18 @@ The following are some of the main sinks that can lead to DOM-based open-redirec
 * $.ajax()
 
 **Information Source** - [DOM-Based Open-Redirection Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/open-redirection "DOM-Based Open-Redirection Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
+## Cookie Manipulation Sinks
+
+The following sink can lead to DOM-based cookie-manipulation vulnerabilities.
+
+* document.cookie
+
+**Information Source** - [DOM-Based Cookie Manipulation  Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/cookie-manipulation "DOM-Based Cookie Manipulation  Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
