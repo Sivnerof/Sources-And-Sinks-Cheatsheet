@@ -38,6 +38,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [XPath Injection Sinks](#xpath-injection-sinks "Jump To Section")
 
+* [Client-Side JSON Injection Sinks](#client-side-json-injection-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -361,3 +363,20 @@ The following are some of the main sinks that can lead to DOM-based XPath-inject
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## Client-Side JSON Injection Sinks
+
+The following are some of the main sinks that can lead to DOM-based client-side JSON injection vulnerabilities:
+
+* JSON.parse()
+
+* jQuery.parseJSON()
+
+* $.parseJSON()
+
+**Information Source** - [DOM-Based Client-Side JSON Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-json-injection "DOM-Based Client-Side JSON Injection Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
