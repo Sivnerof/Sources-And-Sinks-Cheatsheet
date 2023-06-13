@@ -30,6 +30,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [AJAX Request Header Manipulation Sinks](#ajax-request-header-manipulation-sinks "Jump To Section")
 
+* [Local File-Path Manipulation Sinks](#local-file-path-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -287,6 +289,28 @@ The following are some of the main sinks that can lead to DOM-based Ajax request
 * $.globalEval()
 
 **Information Source** - [DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/ajax-request-header-manipulation "DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
+## Local File-Path Manipulation Sinks
+
+The following are some of the main sinks that can lead to DOM-based local file path manipulation vulnerabilities:
+
+* FileReader.readAsArrayBuffer()
+
+* FileReader.readAsBinaryString()
+
+* FileReader.readAsDataURL()
+
+* FileReader.readAsText()
+
+* FileReader.readAsFile()
+
+* FileReader.root.getFile()
+
+**Information Source** - [DOM-Based Local File Path Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/local-file-path-manipulation "DOM-Based Local File Path Manipulation Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
