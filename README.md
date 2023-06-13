@@ -28,6 +28,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Link Manipulation Sinks](#link-manipulation-sinks "Jump To Section")
 
+* [AJAX Request Header Manipulation Sinks](#ajax-request-header-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -269,3 +271,24 @@ The following are some of the main sinks that can lead to DOM-based link-manipul
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## Ajax Request-Header Manipulation Sinks
+
+The following are some of the main sinks that can lead to DOM-based Ajax request-header vulnerabilities:
+
+* XMLHttpRequest.setRequestHeader()
+
+* XMLHttpRequest.open()
+
+* XMLHttpRequest.send()
+
+* jQuery.globalEval()
+
+* $.globalEval()
+
+**Information Source** - [DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/ajax-request-header-manipulation "DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
