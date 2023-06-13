@@ -36,6 +36,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [HTML5 Storage Manipulation Sinks](#html5-storage-manipulation-sinks "Jump To Section")
 
+* [XPath Injection Sinks](#xpath-injection-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -346,3 +348,16 @@ The following are some of the main sinks that can lead to DOM-based HTML5-storag
 
 ---
 
+## XPath Injection Sinks
+
+The following are some of the main sinks that can lead to DOM-based XPath-injection vulnerabilities:
+
+* document.evaluate()
+
+* element.evaluate()
+
+**Information Source** - [DOM-Based Client-Side XPath Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-xpath-injection "DOM-Based Client-Side XPath Injection Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
