@@ -32,6 +32,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Local File-Path Manipulation Sinks](#local-file-path-manipulation-sinks "Jump To Section")
 
+* [Client-Side SQL Injection Sink](#client-side-sql-injection-sink "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -316,3 +318,14 @@ The following are some of the main sinks that can lead to DOM-based local file p
 
 ---
 
+## Client-Side SQL-Injection Sink
+
+The following JavaScript database function can lead to client-side SQL-injection vulnerabilities.
+
+* executeSql()
+
+**Information Source** - [DOM-Based Client-Side SQL Injection Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-sql-injection "DOM-Based Client-Side SQL Injection Sink Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
