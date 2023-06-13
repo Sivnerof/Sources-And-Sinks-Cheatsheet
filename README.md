@@ -42,6 +42,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [DOM-Data Manipulation Sinks](#dom-data-manipulation-sinks "Jump To Section")
 
+* [Denial Of Service Sinks](#denial-of-service-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -435,3 +437,15 @@ The following are some of the main sinks that can lead to DOM-data manipulation 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## Denial Of Service Sinks
+
+The following are some of the main sinks that can lead to DOM-based denial-of-service vulnerabilities:
+
+* requestFileSystem()
+
+* RegExp()
+
+**Information Source** - [Denial Of Service Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/denial-of-service "Denial Of Service Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
