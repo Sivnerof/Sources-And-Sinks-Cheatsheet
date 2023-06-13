@@ -34,6 +34,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Client-Side SQL Injection Sink](#client-side-sql-injection-sink "Jump To Section")
 
+* [HTML5 Storage Manipulation Sinks](#html5-storage-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -329,3 +331,18 @@ The following JavaScript database function can lead to client-side SQL-injection
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
+
+## HTML5 Storage Manipulation Sinks
+
+The following are some of the main sinks that can lead to DOM-based HTML5-storage manipulation vulnerabilities:
+
+* sessionStorage.setItem()
+
+* localStorage.setItem()
+
+**Information Source** - [DOM-Based HTML5 Storage Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/html5-storage-manipulation "DOM-Based HTML5 Storage Manipulation Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
+
