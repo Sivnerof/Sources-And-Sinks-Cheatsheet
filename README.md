@@ -40,6 +40,8 @@ This file contains common JavaScript sources and sinks that lead to potential vu
 
 * [Client-Side JSON Injection Sinks](#client-side-json-injection-sinks "Jump To Section")
 
+* [DOM-Data Manipulation Sinks](#dom-data-manipulation-sinks "Jump To Section")
+
 ---
 
 ## What Are Sources and Sinks?
@@ -154,7 +156,7 @@ The following jQuery functions are also sinks that can lead to DOM-XSS vulnerabi
 
 * $.parseHTML()
 
-**Information Source** - [DOM-Based XSS Lesson On PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based "DOM-Based XSS Lesson On PortSwigger")
+**Information Source** - [DOM-Based XSS Sinks Lesson On PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based "DOM-Based XSS Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -194,7 +196,7 @@ The following are some of the main sinks that can lead to DOM-based open-redirec
 
 * $.ajax()
 
-**Information Source** - [DOM-Based Open-Redirection Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/open-redirection "DOM-Based Open-Redirection Lesson On PortSwigger")
+**Information Source** - [Open-Redirection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/open-redirection "Open-Redirection Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -206,7 +208,7 @@ The following sink can lead to DOM-based cookie-manipulation vulnerabilities.
 
 * document.cookie
 
-**Information Source** - [DOM-Based Cookie Manipulation  Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/cookie-manipulation "DOM-Based Cookie Manipulation  Lesson On PortSwigger")
+**Information Source** - [Cookie Manipulation Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/cookie-manipulation "Cookie Manipulation Sink Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -236,7 +238,7 @@ The following are some of the main sinks that can lead to DOM-based JavaScript-i
 
 * crypto.generateCRMFRequest()
 
-**Information Source** - [DOM-Based JavaScript Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/javascript-injection "DOM-Based JavaScript Injection Sinks Lesson On PortSwigger")
+**Information Source** - [JavaScript Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/javascript-injection "JavaScript Injection Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -248,7 +250,7 @@ The following sink can lead to DOM-based document-domain manipulation vulnerabil
 
 * document.domain
 
-**Information Source** - [DOM-Based Document-Domain Manipulation Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/document-domain-manipulation "DOM-Based Document-Domain Manipulation Sink Lesson On PortSwigger")
+**Information Source** - [Document-Domain Manipulation Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/document-domain-manipulation "Document-Domain Manipulation Sink Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -260,7 +262,7 @@ The following constructor can lead to WebSocket-URL poisoning vulnerabilities.
 
 * WebSocket
 
-**Information Source** - [DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/websocket-url-poisoning "DOM-Based WebSocket URL Poisoning Sink Lesson On PortSwigger")
+**Information Source** - [WebSocket URL Poisoning Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/websocket-url-poisoning "WebSocket URL Poisoning Sink Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -276,7 +278,7 @@ The following are some of the main sinks that can lead to DOM-based link-manipul
 
 * element.action
 
-**Information Source** - [DOM-Based Link Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/link-manipulation "DOM-Based Link Manipulation Sinks Lesson On PortSwigger")
+**Information Source** - [Link Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/link-manipulation "Link Manipulation Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -296,7 +298,7 @@ The following are some of the main sinks that can lead to DOM-based Ajax request
 
 * $.globalEval()
 
-**Information Source** - [DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/ajax-request-header-manipulation "DOM-Based AJAX Request Header Manipulation Sinks Lesson On PortSwigger")
+**Information Source** - [AJAX Request Header Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/ajax-request-header-manipulation "AJAX Request Header Manipulation Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -318,7 +320,7 @@ The following are some of the main sinks that can lead to DOM-based local file p
 
 * FileReader.root.getFile()
 
-**Information Source** - [DOM-Based Local File Path Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/local-file-path-manipulation "DOM-Based Local File Path Manipulation Sinks Lesson On PortSwigger")
+**Information Source** - [Local File Path Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/local-file-path-manipulation "Local File Path Manipulation Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -330,7 +332,7 @@ The following JavaScript database function can lead to client-side SQL-injection
 
 * executeSql()
 
-**Information Source** - [DOM-Based Client-Side SQL Injection Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-sql-injection "DOM-Based Client-Side SQL Injection Sink Lesson On PortSwigger")
+**Information Source** - [Client-Side SQL Injection Sink Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-sql-injection "Client-Side SQL Injection Sink Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -344,7 +346,7 @@ The following are some of the main sinks that can lead to DOM-based HTML5-storag
 
 * localStorage.setItem()
 
-**Information Source** - [DOM-Based HTML5 Storage Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/html5-storage-manipulation "DOM-Based HTML5 Storage Manipulation Sinks Lesson On PortSwigger")
+**Information Source** - [HTML5 Storage Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/html5-storage-manipulation "HTML5 Storage Manipulation Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -358,7 +360,7 @@ The following are some of the main sinks that can lead to DOM-based XPath-inject
 
 * element.evaluate()
 
-**Information Source** - [DOM-Based Client-Side XPath Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-xpath-injection "DOM-Based Client-Side XPath Injection Sinks Lesson On PortSwigger")
+**Information Source** - [Client-Side XPath Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-xpath-injection "Client-Side XPath Injection Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
@@ -374,9 +376,62 @@ The following are some of the main sinks that can lead to DOM-based client-side 
 
 * $.parseJSON()
 
-**Information Source** - [DOM-Based Client-Side JSON Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-json-injection "DOM-Based Client-Side JSON Injection Sinks Lesson On PortSwigger")
+**Information Source** - [Client-Side JSON Injection Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/client-side-json-injection "Client-Side JSON Injection Sinks Lesson On PortSwigger")
 
 [Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
 
 ---
 
+## DOM-Data Manipulation Sinks
+
+The following are some of the main sinks that can lead to DOM-data manipulation vulnerabilities:
+
+* script.src
+
+* script.text
+
+* script.textContent
+
+* script.innerText
+
+* element.setAttribute()
+
+* element.search
+
+* element.text
+
+* element.textContent
+
+* element.innerText
+
+* element.outerText
+
+* element.value
+
+* element.name
+
+* element.target
+
+* element.method
+
+* element.type
+
+* element.backgroundImage
+
+* element.cssText
+
+* element.codebase
+
+* document.title
+
+* document.implementation.createHTMLDocument()
+
+* history.pushState()
+
+* history.replaceState()
+
+**Information Source** - [DOM-Data Manipulation Sinks Lesson On PortSwigger](https://portswigger.net/web-security/dom-based/dom-data-manipulation "DOM-Data Manipulation Sinks Lesson On PortSwigger")
+
+[Back To Top](#sources-and-sinks-cheatsheet "Jump To Top")
+
+---
